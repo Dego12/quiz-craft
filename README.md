@@ -1,8 +1,8 @@
-📘 QuizCraft — Real-Time Quiz Application
+# 📘 QuizCraft — Real-Time Quiz Application
 
 QuizCraft is a real-time web application designed for learning, entertainment, and interactive sessions—similar to platforms like Kahoot. It enables users to create, host, and participate in quizzes with instant feedback and competitive scoring.
 
-🚀 Features
+# 🚀 Features
 📝 Quiz Creation
 
 Create quizzes with multiple questions and answer options.
