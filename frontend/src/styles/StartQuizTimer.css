@@ -1,0 +1,48 @@
+.startTimer {
+    margin: auto;
+} 
+
+.startTimer .timerCounter{
+    animation: pulse 1s infinite;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+@keyframes pulse {
+    0% {font-size: 1rem}
+    50% {font-size: 10rem}
+    100% {font-size: 1rem}
+}
+
+.startTimer.timerComponent {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.startTimer .timerPoligon {
+    background-size: 350px 350px;
+    height: 350px;
+    width: 350px;
+}
+
+@media screen and (max-width: 480px) {
+    @keyframes pulse {
+        0% {font-size: 1rem}
+        50% {font-size: 5rem}
+        100% {font-size: 1rem}
+    }
+
+    .startTimer .timerPoligon {
+        background-size: 250px 250px;
+        height: 250px;
+        width: 250px;
+    }
+}

@@ -1,0 +1,277 @@
+.question {
+  background: rgb(0, 0, 0);
+  font-family: Roboto;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 20px;
+  text-align: center;
+  margin: auto;
+  min-height: fit-content;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.questionDetails {
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+
+.textFields {
+  border: white;
+  width: 80%;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff !important;
+}
+
+label.Mui-focused {
+    color: rgb(78, 169, 255);
+}
+
+.MuiFormHelperText-root {
+  color: #ffffff !important;
+}
+.questionItem {
+  direction: ltr;
+  transform: scale(1);
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 3%;
+}
+
+#correctAnswer {
+  color: rgb(15, 197, 82);
+}
+
+#wrongAnswer {
+  color: #ed224b;
+}
+
+#correctAnswer::marker,
+#wrongAnswer::marker {
+  color: white;
+}
+
+#timer {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #8769ae;
+}
+.question:hover .quizbuttons {
+  display: contents;
+}
+
+.question-button-warning {
+  background-color: #ff9400;
+  border-color: #ff9400;
+  height: 20px;
+  width: 40px;
+}
+
+.question-button-warning:hover {
+  background-color: rgb(179, 146, 18);
+  border-color: rgb(179, 146, 18);
+}
+
+.question-button-danger {
+  background-color: #ed224b;
+  border-color: #ed224b;
+  height: 20px;
+  width: 40px;
+}
+
+.question-button-danger:hover {
+  background-color: rgb(150, 31, 31);
+  border-color: rgb(150, 31, 31);
+}
+
+.start-animation {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.end-animation {
+  margin-top: -3%;
+  bottom: 0%;
+  padding-left: 7%;
+}
+
+.details {
+  text-overflow: ellipsis;
+}
+
+.questionPane {
+  transform: scale(1.6);
+  height: 250px;
+  margin: 0 auto;
+  width: 400px;
+  margin-top: 5rem;
+}
+
+.actionButtons {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.actionButton {
+  width: 100px;
+  background-color: #557dbf;
+  border-color: #557dbf;
+}
+
+.actionButton:hover {
+  background-color: #3268c0;
+  border-color: #3268c0;
+}
+
+.actionButton:disabled {
+  background-color: white;
+  border-color: #283b41;
+}
+
+@media screen and (max-width: 600px) {
+  .createQuizTitle {
+    margin-top: -10%;
+  }
+  .textFields {
+    border: white;
+    width: 100%;
+  }
+  label.Mui-focused {
+    color: rgb(78, 169, 255);
+}
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #ffffff !important;
+  }
+  .MuiFormHelperText-root {
+    color: #ffffff !important;
+  }
+  .actionButtons {
+    margin-top: 50%;
+  }
+  #timer {
+    margin-bottom: 10%;
+  }
+  .question:hover {
+    transform: rotateY(180deg);
+  }
+  .start-animation {
+    backface-visibility: hidden;
+  }
+  .questionItem {
+    padding-bottom: 10%;
+  }
+  .end-animation {
+    margin: auto;
+    margin-top: -60%;
+    transform: rotateY(-180deg);
+  }
+  .question:hover .buttonsFadeInAndOut {
+    animation: buttons 1s forwards;
+  }
+  .questionPane {
+    width: 76%;
+  }
+  .question {
+    font-size: small;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  @keyframes buttons {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .question:not(:hover) .questionbuttons {
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+}
+
+@media screen and (width: 320px) {
+  .createQuizTitle {
+    margin-top: -10%;
+  }
+  .actionButtons {
+    margin-top: 50%;
+  }
+  #timer {
+    margin-bottom: 0%;
+  }
+  .end-animation {
+    padding-left: 5%;
+  }
+  .questionPane {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .createQuizTitle {
+    margin-top: -2%;
+  }
+  .questionPane {
+    width: 100%;
+  }
+  .actionButton {
+    margin-top: 5%;
+    margin: auto;
+  }
+  .end-animation {
+    padding-left: 3%;
+  }
+}
+
+@media screen and (height: 720px) {
+  .question {
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .questionPane {
+    width: 100%;
+  }
+  .actionButton {
+    margin-top: 50%;
+  }
+  .end-animation {
+    padding-left: 3%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .actionButtons {
+    margin-top: -30%;
+  }
+  .questionPane {
+    width: 80%;
+  }
+  .end-animation {
+    padding-right: 2%;
+  }
+}
+
+@media screen and (min-height: 1300px) {
+  .questionPane {
+    width: 70%;
+  }
+  .end-animation {
+    padding-left: 3%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .questionPane {
+    width: 110%;
+  }
+}

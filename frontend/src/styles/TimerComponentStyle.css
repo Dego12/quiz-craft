@@ -1,0 +1,114 @@
+.timerComponent {
+    height: 150px;
+    width: 150px;
+    font-family: Roboto;
+    color: white;
+}
+
+.timerPoligon {
+    animation: rotation 30s infinite linear;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background: url(../img/Poligon.png);
+    background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    text-align: center;
+}
+
+.timerCounter {
+    position: relative;
+    line-height: 150px;
+    text-align: center;
+    font-size: xx-large;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .timerComponent{
+        height: 100px;
+        width: 100px;
+    }
+    
+    .timerPoligon{
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        background-position: center;
+    }
+
+    .timerCounter{
+        font-size: xx-large;
+        line-height: 100px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .timerComponent{
+        height: 75px;
+        width: 75px;
+    }
+    
+    .timerPoligon{
+        background-size: 75px 75px;
+        background-repeat: no-repeat;
+        height: 75px;
+        width: 75px;
+        background-position: center;
+    }
+
+    .timerCounter{
+        font-size: x-large;
+        line-height: 75px;
+    }
+}
+
+@media screen and (max-width: 290px)    
+  {
+    .timerComponent{
+        height: 55px;
+        width: 55px;
+    }
+    
+    .timerPoligon{
+        background-size: 55px 55px;
+        background-repeat: no-repeat;
+        height: 55px;
+        width: 55px;
+        background-position: center;
+    }
+
+    .timerCounter{
+        font-size: large;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-height: 420px) {
+    .timerComponent{
+        height: 55px;
+        width: 55px;
+    }
+    
+    .timerPoligon{
+        background-size: 55px 55px;
+        background-repeat: no-repeat;
+        height: 55px;
+        width: 55px;
+        background-position: center;
+    }
+
+    .timerCounter{
+        font-size: large;
+        line-height: 55px;
+    }
+}

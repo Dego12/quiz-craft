@@ -1,0 +1,60 @@
+.modalStyle{
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom right, rgba(0, 208, 255, 0.7), rgb(255, 0, 191));
+}
+
+.OkCancelbuttons{
+    width: 150px;
+    height: 50px;
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    font-size: 32px;
+    font-family: Roboto;
+}
+
+.buttonsArea{
+    display: flex;
+    justify-content: center;
+}
+
+.cancelButton{
+    background-color: #ed224b;
+    border-color: #ed224b;
+}
+
+.cancelButton:hover{
+    background-color: rgb(150, 31, 31);
+    border-color: rgb(150, 31, 31);
+}
+
+.yesButton{
+    background-color: #9ace87;
+    border-color: #9ace87;
+}
+
+.yesButton:hover{
+    background-color: #87b576;
+    border-color: #87b576;
+}
+
+@media screen and (max-width:480px) {
+    .OkCancelbuttons{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .OkCancelbuttons{
+        width: 90px;
+        font-size: 26px;
+    }
+}

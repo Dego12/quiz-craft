@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@fluentui/react": "^8.90.1",
+    "react-router-dom": "^6.3.0"
+  }
+}

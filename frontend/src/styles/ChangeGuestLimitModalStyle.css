@@ -1,0 +1,58 @@
+.changeGuestLimitModal {
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom right, rgba(0, 208, 255, 0.7), rgb(255, 0, 191));
+}
+
+.limitField {
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.submitLimitButton {
+    padding: 4%;
+    border-radius: 5px;
+    font-size: 45%;
+    font-weight: bolder;
+    min-width: fit-content;
+    width: 1rem;
+    min-height: fit-content;
+    height: 0.5rem;
+}
+
+.submitLimitButton:enabled {
+    background-color: #0097b9;
+    border-color: #0097b9;
+}
+
+.submitLimitButton:hover:enabled {
+    background-color: #017c97;
+    border-color: #017c97;
+}
+
+.cancelLimitButton {
+    padding: 4%;
+    border-radius: 5px;
+    font-size: 45%;
+    font-weight: bolder;
+    background-color: #ce6868;
+    border-color: #ce6868;
+    min-width: fit-content;
+    width: 1rem;
+    min-height: fit-content;
+    height: 0.5rem;
+}
+
+.limitModalButtonContainer {
+    display: flex;
+    justify-content: space-evenly;
+}

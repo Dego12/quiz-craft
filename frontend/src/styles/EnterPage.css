@@ -1,0 +1,40 @@
+#fieldContainer{
+    width: 18%; 
+    padding: 30px;
+    transform: scale(1.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fieldElements{
+    display: flex;
+    justify-content: center;
+}
+
+#joinButton{
+    margin-top: 5%;
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    width: auto;
+    font-size: x-large;
+    background-color: #0097b9;
+    border-color: #0097b9;
+}
+
+#joinButton:hover{
+    background-color: #017c97;
+    border-color: #017c97;
+}
+
+@media screen and (max-width: 480px) {
+    #fieldElements{
+        width: 100%;
+    }
+    
+
+}

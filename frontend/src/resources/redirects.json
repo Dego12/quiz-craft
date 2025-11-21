@@ -1,0 +1,16 @@
+{
+    "Login": "/log_in",
+    "Signup": "/sign_up",
+    "ResetPasswordPage": "/reset_password",
+    "ResetPasswordTokenParam": "resetPasswordToken",
+    "MainPage": "/main_page",
+    "LandingPage": "/",
+    "QuizPage": "/quiz_page",
+    "QuizIdParam": "quizId",
+    "RoomIdParam": "roomId",
+    "PINParam": "pin",
+    "GuestEnterPage": "/play",
+    "PlayQuizPage": "/play_quiz",
+    "TemporaryHostPage": "/temporaryhost_page",
+    "HostPage": "/host_page"
+}

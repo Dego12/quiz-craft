@@ -1,0 +1,111 @@
+############################################
+# ASP.NET / .NET
+############################################
+
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+[Aa]rtifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Cache/Options
+.vs/
+.vscode/
+
+# Logs
+*.log
+
+# Environment Variables
+*.env
+*.env.*
+
+# IIS Express
+/.vs/
+/iisexpress/
+*.dbmdl
+
+# NuGet Packages
+*.nupkg
+packages/
+*.snk
+*.pfx
+project.lock.json
+project.fragment.lock.json
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Rider
+.idea/
+
+
+############################################
+# React Frontend (Node.js)
+############################################
+
+# Dependencies
+node_modules/
+
+# Production build
+build/
+dist/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor settings
+*.swp
+*.swo
+
+# Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+
+############################################
+# General
+############################################
+
+# OS files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+*.old
+
+# Compiled files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.db
+*.lock

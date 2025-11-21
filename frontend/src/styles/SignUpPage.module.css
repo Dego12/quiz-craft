@@ -1,0 +1,236 @@
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions {
+  width: inherit;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.notification {
+  top: 0;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+}
+
+.redirectToRegisterOrLogin {
+  display: flex;
+  justify-content: center;
+  color: #283b41;
+  font-family: Roboto;
+  font-size: 1.2rem;
+}
+
+.redirectToRegisterOrLogin a {
+  color: rgb(0, 120, 212);
+}
+
+.redirectToRegisterOrLogin a:hover {
+  color: rgb(2, 98, 172);
+}
+
+.finalizeActionButton {
+  font-size: large;
+  width: auto;
+  background-color: #557dbf;
+  border-color: #557dbf;
+}
+
+.finalizeActionButton:hover {
+  background-color: #3268c0;
+  border-color: #3268c0;
+}
+
+.finalizeActionButton:disabled {
+  background-color: white;
+  border-color: #283b41;
+}
+
+.backButton {
+  font-size: large;
+  width: 30%;
+  background-color: #557dbf;
+  border-color: #557dbf;
+}
+
+.backButton:hover {
+  background-color: #3268c0;
+  border-color: #3268c0;
+}
+
+.signUpErrors {
+  font-family: Roboto;
+  text-align: center;
+  color: #ed224b;
+  font-size: medium;
+}
+
+.loginErrors {
+  font-family: Roboto;
+  text-align: center;
+  color: #ed224b;
+  font-size: medium;
+}
+
+.SignUpPasswordBullets {
+  margin-top: 10px;
+  color: #6d6e6e;
+  padding: 0px;
+  font-size: 29px;
+  font-family: "Roboto";
+  color: " rgb(238,34,76)";
+}
+
+.SignUpPasswordBullets span {
+  font-size: 24px;
+  position: relative;
+  left: -12px;
+  align-items: center;
+}
+
+.CheckedPasswordBullet::marker {
+  color: green;
+}
+
+.CheckedPasswordBullet {
+  color: black;
+}
+
+.textFieldSignUp {
+  width: 100%;
+  border: 1px white;
+}
+
+label.Mui-focused {
+    color: rgb(78, 169, 255);
+}
+
+.MuiFormHelperText-root {
+  color: #ffffff !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff !important;
+}
+
+.textFieldLogIn {
+  margin-top: 10%;
+  width: 100%;
+}
+
+.listElement::marker {
+  color: #ed224b;
+}
+
+.passwordError {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: fit-content;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1rem;
+  color: #ed224b;
+  padding: 3% 0 3%;
+}
+
+.languageButtonPlacement {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.redirectLink {
+  font-family: Roboto;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out;
+}
+
+.forgotPass {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 1vh;
+  color: rgb(0, 120, 212);
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 550px) {
+  .passwordError {
+    padding: 0 3% 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .SignUpPasswordBullets {
+    font-size: 25px;
+  }
+  .SignUpPasswordBullets span {
+    font-size: 17px;
+  }
+  .redirectToRegisterOrLogin {
+    font-size: 18px;
+  }
+  .passwordError {
+    font-size: 16px;
+    padding: 0 2% 0;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .formTitle {
+    font-size: xx-large;
+  }
+  .textFields {
+    border: white;
+    width: 85%;
+  }
+  label.Mui-focused {
+    color: rgb(78, 169, 255);
+}
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #ffffff !important;
+  }
+  .MuiFormHelperText-root {
+    color: #ffffff !important;
+  }
+  .SignUpPasswordBullets {
+    font-size: small;
+    width: 140%;
+    left: -10px;
+  }
+  .SignUpPasswordBullets span {
+    font-size: small;
+    left: -10px;
+  }
+  .redirectToRegisterOrLogin {
+    font-size: small;
+  }
+  .passwordError {
+    font-size: small;
+  }
+  .actions {
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .finalizeActionButton {
+    margin-left: 5px;
+    font-size: small;
+  }
+  .backButton {
+    font-size: small;
+  }
+}

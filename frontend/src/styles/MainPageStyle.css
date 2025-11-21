@@ -1,0 +1,150 @@
+.mainPageContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+.mainPageButtons {
+    display: flex;
+    justify-content: right;
+    height: 10vh;
+}
+
+.logoutButton {
+    width: 110px;
+    height: 50px;
+    margin: 20px 0px;
+    margin-right: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: #557dbf;
+    border-color: #557dbf;
+}
+
+.logoutButton:hover {
+    background-color: #3268c0;
+    border-color: #3268c0;
+}
+
+.createQuizButton{
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    font-size: 30px;
+    width: auto;
+    background-color: #0097b9;
+    border-color: #0097b9;
+}
+
+#createQuizButton:hover {
+    background-color: #017c97;
+    border-color: #017c97;
+}
+
+.quizList {
+    list-style: none;
+}
+
+.item{
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
+    direction: ltr;
+}    
+
+.textCenter{
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#createQuizButtonCenter{
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    font-size: 30px;
+    width: auto;
+    background-color: #0097b9;
+    border-color: #0097b9;
+}
+
+.createQuizContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#createQuizButtonCenter:hover {
+    background-color: #017c97;
+    border-color: #017c97;
+}
+
+.pane {
+    min-width: fit-content;
+    margin-top: 3vh;
+    direction: ltr;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom right, rgba(0, 208, 255, 0.7), rgb(255, 0, 191));
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100vw;
+}
+
+.mainPageTitle{
+    margin-top: 0;
+}
+
+@media screen and (max-width: 480px) {
+    #createQuizButtonCenter{
+        top: 65%;
+    }
+}
+
+@media screen and (max-height: 920px) {
+    .pane{
+        height: 55%;
+    }
+
+    .textCenter{
+        margin-left: 55px;
+    }
+}
+
+@media screen and (max-height: 850px) {
+    .pane{
+        height: 55%;
+    }
+
+    .textCenter{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-height: 768px) {
+    .pane{
+        height: 60%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .pane{
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .logoutButton{
+        margin: 10px 0px;
+    }
+}

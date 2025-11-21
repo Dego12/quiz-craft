@@ -1,0 +1,155 @@
+.hostButtons{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    justify-content: space-evenly;
+    transform: scale(1.4);
+}
+
+.pageContent{
+    height: 100vh;
+    font-family: Roboto;
+}
+
+.pageTitle{
+    color: rgb(255, 255, 255);
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    font-size: 400%;
+    word-wrap: break-word;
+}
+
+.hostPageCopyPin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.hostPageCopyPinActions{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.hostPagehostButton{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playerCountArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.changeLimitButton {
+    background-color: #017c97;
+    border-color: #017c97;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.heroSection{
+    margin-inline: 1%;
+}
+
+.hostPageIcons{
+    color: white;
+    font-size: 16px;
+    background-color: #017c97;
+    border-radius: 5px;
+    width: auto;
+    min-width: 60px;
+    height: 2rem;
+}
+
+.personIcon{
+    margin: 0.2rem;
+}
+
+.numberOfPlayers{
+    margin: 0.2rem;
+}
+
+.hostQuestionHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.viewResultsButton {
+    width: 110px;
+    height: 50px;
+    background-color: #557dbf;
+    border-color: #557dbf;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerJoined{
+    width: 80vh;
+    word-wrap: break-word;
+    margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .hostPageIcons{
+        padding-top: 2%;
+        margin-left: 2.5%;
+    }
+
+    .pageTitle{
+        align-items: center;
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .playerJoined{
+        width: 40vh;
+        word-wrap: break-word;
+    }
+}
+
+.waitingForPlayers {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+.joinedGuests {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+.nextQuestionButton {
+    background-color: #557dbf;
+    border-color: #557dbf;
+    border-radius: 0.5em;
+    font-size: 18px;
+    margin: 4vh;
+    align-self: center;
+}
+
+.showResults{
+    display: flex;
+    flex-direction: column;
+}
+
+.leaderBoardHost{
+    margin-top: 1%;
+}

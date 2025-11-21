@@ -1,0 +1,83 @@
+#questionText{
+    margin-top: 5px;
+    background-color: rgba(41, 60, 66, 1);
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    margin-top: auto;
+    padding: 2%;
+    font-family: Roboto;
+    color:white;
+    text-align: center;
+    font-size: larger;
+    line-break: anywhere;
+}
+
+#parentDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+@media screen and (min-width: 480px) {
+    #questionText{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #questionText{
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #questionText{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    #questionText{
+        font-size: medium;
+    }
+}
+
+@media screen and (min-height: 1200px) {
+    #questionText{
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-height: 926px) {
+    #questionText{
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-height: 860px) {
+    #questionText{
+        font-size: large;
+    }
+}
+
+@media screen and (max-height: 578px) {
+    #questionText{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-height: 420px){
+    #questionText{
+        font-size: large;
+    }
+}
+
+@media screen and (max-height: 380px){
+    #questionText{
+        font-size: smaller;
+    }
+}
